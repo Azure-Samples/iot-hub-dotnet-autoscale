@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26923.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotHubScale", "IotHubScale\IotHubScale.csproj", "{2BD0BC7C-B2E6-465A-A343-5A39B5CA97D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD0BC7C-B2E6-465A-A343-5A39B5CA97D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD0BC7C-B2E6-465A-A343-5A39B5CA97D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD0BC7C-B2E6-465A-A343-5A39B5CA97D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD0BC7C-B2E6-465A-A343-5A39B5CA97D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A878B91-A31C-4BBB-A984-821E48B6A267}
+	EndGlobalSection
+EndGlobal
