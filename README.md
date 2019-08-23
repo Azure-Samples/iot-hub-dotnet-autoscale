@@ -1,7 +1,12 @@
 ---
-services: iot-hub
-platforms: dotnet
-author: stevebus
+page_type: sample
+languages:
+- C#
+products:
+- IoT Hub
+name: Auto-scale your Azure IoT Hub
+urlFragment: AutoScaleIoTHub
+description: The sample monitor an IoT Hub for the case where the current message count has exceeded a set threshold and, in that case, to automatically scale the IoT Hub up to the next unit of capacity.
 ---
 
 # Auto-scale your Azure IoT Hub
