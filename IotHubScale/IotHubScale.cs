@@ -53,7 +53,7 @@ namespace IotHubScale
                 await starter.StartNewAsync(IotHubScaleOrchestratorName, IotHubScaleOrchestratorInstanceId);
             }
             else
-                log.LogInformation(String.Format("An instance of {0} job is already running {1}, nothing to do...", IotHubScaleOrchestratorInstanceId, existingInstance));
+                log.LogInformation(String.Format("An instance of {0} job is already running, nothing to do...", IotHubScaleOrchestratorInstanceId));
         }
         
         // the orchestrator function...  manages the call to the actual worker, then sets a timer to
