@@ -1,18 +1,14 @@
 using System;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.Management.IotHub;
 using Microsoft.Azure.Management.IotHub.Models;
-using Microsoft.Rest;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest.Azure;
-using System.Collections.Generic;
-using System.Net.Http;
+using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.DurableTask;
-using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.Rest;
+using Microsoft.Rest.Azure;
 
 namespace IotHubScale
 {
