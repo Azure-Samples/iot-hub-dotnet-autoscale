@@ -78,6 +78,8 @@ There are several prerequisites required for development and deployment of the s
     * Threshold – the percentage of the IoT Hub message quota at which you want to scale
 5. Build the solution.
 
+*Note: Successive checks of the daily message quota used by your IoT Hub may be inconsistent, particularly if the used quota is checked frequently (e.g. every 1 minute).  This inconsistency could result in an intermittent decline in the reported used message quota during quota checks.  It is recommended that you take the maximum of the returned quota value over a time window (for example, 30 minutes) to avoid any such inconsistencies.*
+
 ## Solution Deployment
 
 1. If you want to test the functions locally before deployment, you can [test and debug](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#testing-functions) the functions on your development machine.
